@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi" name="文档"
+                 start-page="dotnet6WebApi.md">
+
+    <toc-element topic="dotnet6WebApi.md">
+        <toc-element topic="CreateForWindowsService.md">
+        </toc-element>
+        <toc-element topic="NlogConfig.md"/>
+        <toc-element topic="OrginWebApi.md"/>
+    </toc-element>
+</instance-profile>
