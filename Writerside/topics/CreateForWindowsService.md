@@ -58,7 +58,7 @@ sc create "Digihua.PrintService" binPath= "{安装路径}\win-x86\publish\WebApi
 ```
 2. 使用bat脚本注册 <br/>
 安装
-``` Shell
+```text
 @echo off
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 if '%errorlevel%' NEQ '0' (
@@ -82,7 +82,7 @@ set "current_dir=%~dp0"
 @pause
 ```
 卸载
-```Shell
+```text
 @echo off
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 if '%errorlevel%' NEQ '0' (
